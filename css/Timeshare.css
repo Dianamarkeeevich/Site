@@ -21,12 +21,19 @@ html, body{
   flex-direction: column;
  }
  .time__block {
-  padding-top: 239px;
-  padding-bottom: 50px;
+  min-height: 100vh;
+  display: flex;
+  padding-top: 120px;
+}
+.time__body{
+  padding: 0px 15px 0px 15px;
+  flex: 1 1 auto;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
-  max-width: 650px;
 }
 .time__block__title h1{
 	text-align: center;
@@ -41,13 +48,14 @@ html, body{
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-  padding-bottom: 14px;
+  padding-bottom: 50px;
+  max-width: 811px;
+  margin: 0 auto;
 }
 .slide_container {
 	display: flex;
   flex-wrap: wrap;
 	justify-content: center;
-  padding-bottom: 30px;
 }
 .slide {
 	flex: 0 1 33.333%
