@@ -820,6 +820,8 @@ h1 {
   -webkit-transition: 0.1s;
   transition: 0.1s;
   margin-bottom: 20px;
+  text-align: center;
+  padding: 14px 0;
 }
 .f-btn:hover {
   -webkit-filter: brightness(110%);
