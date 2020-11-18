@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util_1.css">
+	<link rel="stylesheet" type="text/css" href="css/loginmain.css">
+
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #F2F6FF;">
+		<header class="header">
+	    <div class="container">
+	        <div class="header__body">
+	            <a href="index.html" class="header__logo">
+	                <img src="images/Logo1.svg" alt="logo">
+	            </a>
+	            <div class="header__burger">
+	                <span></span>
+	            </div>
+	            <nav class="header__menu">
+	                <ul class="header__list">
+	                    <li>
+	                        <a href="Timeshare.html" class="header__link">Timeshare investment</a>
+	                    </li>
+	                     <li>
+	                        <a href="#" class="header__link">Real estate investment</a>
+	                        <span class="menu__arrow arrow"></span>
+	                        <span class="menu__polygon polygon"></span>
+	                        <ul class="sub-header__list">
+	                            <li>
+	                                <a href="finished.html" class="sub-header__link">Finished real estate</a>
+	                            </li>
+	                            <li>
+	                                <a href="u_construction.html" class="sub-header__link">Real estate under construction</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <a href="404.html" class="header__link-1">Contacts</a>
+	                    </li>
+	                     <li>
+	                        <a href="FAQ.html" class="header__link">FAQ</a>
+	                    </li>
+	                </ul>
+	            <div class="lang-menu">
+	                <div class="selected-lang">
+	                    EN
+	                </div>
+	                <span class="polygon_2"></span>
+	                <ul>
+	                    <li>
+	                        <a href="#" class="de">DE</a>
+	                    </li>
+	                    <li>
+	                        <a href="" class="en">EN</a>
+	                    </li>
+	                    <li>
+	                        <a href="" class="fr">FR</a>
+	                    </li>
+	                </ul>
+	                
+	            </div>
+	                    <ul class="header__actions">
+	                        <li><a href="signup.html" class="btn-signup">Sign up</a></li>
+	                        <li><a href="#download" class="btn-login">Log in</a></li>
+	                    </ul>
+	                </nav>
+	            </div>
+	        </div>
+	</header>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+					<span class="login100-form-title p-b-43">
+						Login
+					</span>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Enter your Email</span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="pass">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Enter your Password</span>
+					</div>
+
+					<div class="flex-sb-m w-full p-t-3 p-b-32">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+							<label class="label-checkbox100" for="ckb1">
+								Remember me
+							</label>
+						</div>
+
+						<div>
+							<a href="#popup" class="txt1">
+								Forgot Password?
+							</a>
+						</div>
+					</div>
+			
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+					<div class="text-center_1">
+							<p>
+							Not registered yet? <a href="#" class="txt1">Sign up now
+							</a></p> </div>
+					<div class="text-center p-t-46 p-b-20">
+						<span class="txt2">
+							or Sign in with 
+						</span>
+					</div>
+
+					<div class="login100-form-social flex-c-m">
+						<a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
+							<i class="fa fa-facebook-f" aria-hidden="true"></i>Facebook 
+						</a>
+
+						<a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
+							<i class="fa fa-google"></i> Google
+						</a>
+					</div>
+				</form>
+
+				<div class="login100-more">
+					<img src="images/Illustration login.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<div id="popup"class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#" class="popup__close"><span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span></a>
+				<div class="login100-form-title"><h1>Forgot the password?</h1></div>
+				<div class="popup__text"><p>Write your E-mail to reset your password</p></div>
+					<div class="wrap-input200 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email">
+						<span class="focus-input100"></span>
+						<input class="input100 has-val" type="text" name="email">
+						<span class="label-input100">Enter your Email</span>
+					</div>
+				<div class="container-login200-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+				</div>
+				<div class="text-center_1"><p>Already have an account? <a href="#" class="txt1">Login now</a></p> 
+				</div>
+				<div class="text-center_1"><p>Not registered yet? <a href="#" class="txt1">Sign up now</a></p> 
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
