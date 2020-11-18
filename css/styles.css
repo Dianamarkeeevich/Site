@@ -1392,6 +1392,9 @@ transition-duration: 0s;
     flex: 1 1 auto;
     margin: -75px 25px;
   }
+  .main-block { 
+  padding-top: 0px;
+}
 }
 @media (max-width: 423px){
   .slide{
