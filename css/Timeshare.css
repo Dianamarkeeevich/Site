@@ -356,6 +356,16 @@ to {height:100%;}
   .body.lock{
     overflow: hidden;
   }
+@media (max-width: 768px){
+  .slide{
+padding: 20px 0px;
+  }
+}
+@media (max-width: 481px){
+ .time__block__title h1{
+	font-size: 40px;
+}
+}
   @media (max-width: 423px){
   .slide{
 margin: auto;
@@ -363,10 +373,4 @@ margin: auto;
   .time__block {
     padding: 100px 15px 50px 15px;
 }
-}
-
-@media (max-width: 768px){
-  .slide{
-padding: 20px 0px;
-  }
 }
