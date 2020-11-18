@@ -10,7 +10,6 @@ html, body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 30px;
 }
 .slide {
 	flex: 0 1 33.333%
@@ -96,12 +95,20 @@ transition-duration: 0.5s;
   display: flex;
   flex-direction: column;
  }
- .finish__block {
-  padding: 239px 15px 50px 15px;
+ .finish__block{ 
+  min-height: 100vh;
+  display: flex;
+  padding-top: 120px;
+}
+ .finish__body{
+  padding: 0px 15px 0px 15px;
+  flex: 1 1 auto;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
-  max-width: 811px;
 }
 .finish__block__title h1{
 	text-align: center;
@@ -111,13 +118,19 @@ transition-duration: 0.5s;
 	line-height: 65px;
 	padding-bottom: 10px;
 }
+.finish__block__text{
+  padding-bottom: 50px;
+  justify-content: center;
+  margin: 0 auto;
+}
 .finish__block__text p{
 	color: #fff;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-  padding-bottom: 14px;
+  max-width: 811px;
 }
+
 .card_table{
 	padding-top: 100px;
 }
@@ -226,6 +239,13 @@ margin: 0px auto;
   text-align: center;
 }
 }
+@media (max-width: 481px){
+  .finish__block__title h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  }
 @media (max-width: 425px) {
 .finish__block {
     padding: 100px 15px 50px 15px;
