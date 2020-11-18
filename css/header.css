@@ -1,0 +1,205 @@
+/* ==========================================================================
+Typography
+========================================================================== */
+p {
+  font-size: 15px;
+  line-height: 29px;
+  color: rgba(28, 54, 83, 0.6);
+ }
+
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #3D4351; }
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3D4351; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 15px;
+  color: #3D4351;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+
+.btn-fill {
+  color: #fff;
+  border: solid 2px #FF5274;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #FF5274; }
+
+.btn-fill:hover, .btn-fill:focus {
+  color: #fff;
+  background-color: #35c4f2;
+  border-color: #35c4f2; }
+
+
+.btn-large {
+  padding: 21px 76px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #00aae1;
+  border-color: #00aae1; 
+  align-self: center;}
+
+.btn-margin-right {
+  margin-right: 175px;
+  margin-left: 176px;
+  }
+
+section.intro, section.features-extra, section.sign-up {
+  background: #fff; }
+
+section.features, section.blog-intro, section.blog {
+  background: #F3F4F8; }
+
+/* ==========================================================================
+Global Styles
+========================================================================== */
+
+.header{
+  background-color: #054163;
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  z-index: 999;
+}
+.logo{
+  position: relative;
+  height: 63px;
+  width: 112px;;
+  padding-left:50px;
+  margin-top: -17px;
+  position: fixed;
+}
+.logo img{
+  width: 285px;
+  height: 60px;
+}
+.navigation {
+  background-color: #054163;
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  z-index: 999;
+ }
+.header-content{
+  display: block;
+  left: 0;
+  top: 0;
+}
+.menu {
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.menu li{
+  list-style: none;
+  position: relative;
+}
+.menu a: hover{
+  color: #00aae1;
+}
+.menu__list {
+  display: flex;
+   margin: 47px 0 46px 361px;
+
+
+}
+.menu__list>li{
+  margin: 0px 30px 0px 0px;
+}
+
+.menu__list>li: hover .sub-menu__list{
+  display: block;
+
+}
+.menu__list ul{
+
+}
+.menu__link {
+  color: #fff;
+}
+
+.sub-menu__list {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  padding: 30px 0px 0px 0px;
+}
+.sub-menu__list:before {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+}
+.sub-menu__list>li{
+  width: 200px;
+  border-color: #00aae1;
+  background-color: #00aae1;
+}
+.sub-menu__list>li:first-child{
+  padding: 30px 21px 15px 20px;
+}
+.sub-menu__list>li:last-child{
+  padding: 0px 27px 29px 20px;
+}
+
+
+.sub-menu__list>li  {
+    color: #fff;
+}.sub-menu__list>li: hover {
+    color: #054163;
+}
+.member-actions{
+  display: flex;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  margin: 35.5px 0px 0px 1000px;
+}
+.member-actions li{
+  padding: 0px 20px 0px 0px;
+}
+.btn-signup {
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  background-color:#0aaae1;
+  padding: 12px 41px 13px 43px;
+}
+
+.btn-signup:hover, .btn-signup:focus {
+  background-color: #35c4f2;
+ }
+ .btn-login {
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  border: 2px solid;
+  border-color:#0aaae1;
+  padding: 10px 48px 11px 49px;
+}
+
+.btn-login:hover, .btn-login:focus {
+  color: #ea366c;
+ }

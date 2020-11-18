@@ -1,0 +1,206 @@
+
+.search {
+  background: url("../img/FAQ/Background.jpg") center center;
+  background-position: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 540px;
+  width: 100%;
+ }
+.search__block__wrap{
+  margin: 0px auto;
+  max-width: 1000px;
+}
+.search__block { 
+  width: 100%;
+  flex-basis: fill;
+  justify-content: center;
+  text-align: center;
+  padding-top: 239px;
+  margin: 0 auto;
+}
+.box{
+  width: 95.5%;
+}
+.box-1{
+  width: 95.5%;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.box-1 input#search{
+  width: 100%;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #054163;
+  float: left;
+  padding-left: 45px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+.box-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #C5C5C5;
+}
+.box-1 input#search::-webkit-input-placeholder {
+    color: #C5C5C5;
+}
+ 
+.box-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #C5C5C5; 
+}
+ 
+.box-1 input#search:-ms-input-placeholder {  
+    color: #C5C5C5;  
+}
+.box-1 .icon{
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  top: 17px;
+  z-index: 1;
+  color: #054163;
+}
+
+.box-1 input#search:hover, .box-1 input#search:focus, .box-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+  }
+.search__block__title h1{
+	margin-bottom: 35px;
+ 	text-align: left;
+	color: #fff;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 65px 
+}
+.faq__body {
+  padding: 120px 40px;
+}
+
+.tab input,
+.tab-content {
+  display: none;
+}
+
+.tab {
+  margin-bottom: 20px;
+  background-color: #F2F6FF;
+  padding: 20px;
+}
+.tab label{
+  margin-bottom: 20px;
+
+}
+
+.tab-title {
+  padding-bottom: 20px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #054163;
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tab-title::after {
+  content: url("../img/main/Group.png");
+  width:10px;
+  height: 2px;
+  float: right;
+}
+
+.tab-content {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #282424;
+  padding-top:20px;
+}
+hr{
+  border:none;
+  height: 1px;
+  color:#B5BFD6;
+  z-index: 4;
+}
+.tab-content a{
+  font-weight: 400;
+  font-size: 16px;
+  color: #EA366C;
+}
+.tab-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #282424;
+  }
+.tab-content ol{
+  margin:10px 0 0 20px;
+}
+
+.tab :checked+.tab-title::after {
+  content:url("../img/main/next (1) 1.png");
+}
+
+.tab :checked~.tab-content {
+  display: block;
+}
+/*--------MEDIA------------*/
+@media (min-width: 1000px){
+.search__block{
+  width: 900px;
+  }
+}
+@media (max-width: 999px){
+.search__block{
+  width: 730px;
+  }
+}
+@media (max-width: 768px){
+.search__block{
+  width: 600px;
+}
+}
+@media (max-width: 660px){
+.search__block{
+  width: 400px;
+}
+}
+@media (max-width: 500px){
+.search__block__wrap{
+  margin: 0px auto;
+  max-width: 100%;
+}
+.search__block{
+  width: 100%;
+}
+.box-1 input#search {
+    width: 90.5%;
+  }
+  }
+@media (max-width: 425px){
+.faq__body {
+    padding: 50px 20px;
+}
+}
+@media (max-width: 375px){
+.tab-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+}
