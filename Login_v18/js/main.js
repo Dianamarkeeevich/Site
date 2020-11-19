@@ -1,7 +1,59 @@
 
 (function ($) {
     "use strict";
+        $('.header__burger').click(function(event) {
+            $('.header__burger,.header__menu').toggleClass('active');
+                        $('.body').toggleClass('lock');
+        });
+window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  if(scrolled > 1300){
+    document.getElementById('popup').style="display:block;";
+  }else{
+  document.getElementById('popup').style="display:none;";
+  }
+}
+let isMobile = {
+    Android: function() {return navigator.userAgent.match(/Android/i);},
+    BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
+    iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
+    Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
+    Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
+    any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
+};
+        let body=document.querySelector('body');
+if(isMobile.any()){
+        body.classList.add('touch');
+        let arrow=document.querySelectorAll('.arrow');
+    for(i=0; i<arrow.length; i++){
+            let thisLink=arrow[i].previousElementSibling;
+            let Menu=arrow[i].nextElementSibling;
+            let thisArrow=arrow[i];
 
+            thisLink.classList.add('parent');
+        arrow[i].addEventListener('click', function(){
+            menu.classList.toggle('open');
+            thisArrow.classList.toggle('active');
+        });
+    }
+}else{
+    body.classList.add('mouse');
+}
+
+    var $element = $('.footer');
+    let counter = 0;
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop() + $(window).height();
+  //Если скролл до конца елемента
+  //var offset = $element.offset().top + $element.height();
+  //Если скролл до начала елемента
+  var offset = $element.offset().top
+ 
+  if (scroll > offset && counter == 0) {
+    $('#block').fadeIn(500);
+    counter = 1;
+  }
+});
 // Get the modal
 var modal = document.getElementById('id01');
 
