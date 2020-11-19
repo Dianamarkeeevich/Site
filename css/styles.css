@@ -72,7 +72,8 @@ h5 {
   border: solid 2px #FF5274;
   border-radius: 5px;
   display: inline-block;
-  background-color: #FF5274; }
+  background-color: #FF5274;
+}
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
@@ -86,7 +87,9 @@ h5 {
   font-weight: 700;
   background-color: #00aae1;
   border-color: #00aae1; 
-  align-self: center;}
+  align-self: center;
+  margin-bottom:30px;
+}
 
 
 .btn-signup {
@@ -1397,9 +1400,7 @@ box-shadow:none;
 transform: none;
 transition-duration: 0s;
 }
-  .main-block { 
-  padding-top: 0px;
-}
+
   .hero__title h1{
     font-size: 40px;
     font-weight: 700;
