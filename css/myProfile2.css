@@ -213,6 +213,7 @@ padding-bottom: 20px;
 	justify-content: space-between;
 	margin-top: 40px;
 	margin-bottom: 20px;
+	padding: 0 10px;
 }
 .photo-subtitle p{
 font-size: 16px;
@@ -246,7 +247,7 @@ color: #868891;
 @media (max-width: 570px){
 .data_content-2 {
 	flex: 1 1 auto;
-	max-width: 350px;
+	margin: auto;
 }
 .profile_element-2{
 	max-width: 400px;
@@ -265,7 +266,7 @@ color: #868891;
 }
 @media (max-width: 420px){
 	.profile_element-2{
-	max-width: 300px;
+	margin: auto;
 }
 .data__content{
 	padding:0;
