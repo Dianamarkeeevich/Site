@@ -1104,8 +1104,8 @@ display: none;
     padding-right: 15px;
     padding-top: 100px;
   }
-  .txt2:before,.txt2:after {
-    width: 33.5%;
+.wrap-login100 {
+    height: 100%;
   }
 }
 
