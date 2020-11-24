@@ -43,7 +43,6 @@ html, body{
 	padding-bottom: 15px;
 }
 .profile_actions a{
-font-family: Open Sans;
 font-weight: 600;
 font-size: 18px;
 line-height: 33px;
@@ -77,7 +76,6 @@ color: #00AAE1;
 }
 .profile_element-2__content {}
 .profile_title h2{
-	font-family: Open Sans;
 	font-weight: 600;
 	font-size: 36px;
 	color: #054163;
@@ -98,14 +96,12 @@ color: #00AAE1;
 	padding-left: 20px;
 }
 .main_info-text a{
-font-family: Open Sans;
 font-weight: 400;
 font-size: 18px;
 line-height: 25px;
 color: #595B69;
 }
 .main_info-text p{
-font-family: Open Sans;
 font-weight: 700;
 font-size: 24px;
 line-height: 33px;
@@ -127,7 +123,6 @@ padding-bottom: 10px;
 }
 .main_info-sub p{
 	margin-top: 40px;
-	font-family: Open Sans;
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 33px;
@@ -171,7 +166,6 @@ padding-bottom: 10px;
 	padding-bottom: 15px;
 }
 .data_actions a{
-font-family: Open Sans;
 font-weight: 600;
 font-size: 18px;
 line-height: 33px;
@@ -181,7 +175,6 @@ color: #868891;
 color: #00AAE1;
 }
 .photo-title p{
-font-family: Open Sans;
 font-weight: 400;
 font-size: 18px;
 line-height: 30px;
